@@ -1,0 +1,31 @@
+{
+  "name": "@smart-home-the-verse/fastify-async-mqtt",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "async-mqtt": "^2.5.0",
+    "fastify-plugin": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "fastify": "^2.13.0",
+    "tap": "^14.10.7",
+    "ts-node": "^8.8.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "tap test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/smart-home-the-verse/fastify-async-mqtt.git"
+  },
+  "author": "Thomas Tacke <thomas@tacke.email>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/smart-home-the-verse/fastify-async-mqtt/issues"
+  },
+  "homepage": "https://gitlab.com/smart-home-the-verse/fastify-async-mqtt#readme"
+}
