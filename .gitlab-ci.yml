@@ -21,7 +21,7 @@ test:
     MQTT_BROKER: eclipse-mosquitto
   script:
     - npm install
-    - nm run test
+    - npm run test
 
 stages:
   - build
