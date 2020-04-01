@@ -2,7 +2,7 @@
   "name": "@smart-home-the-verse/fastify-async-mqtt",
   "version": "0.0.1",
   "description": "Fastify MQTT plugin based on async-mqtt",
-  "main": "index.ts",
+  "main": "index.js",
   "dependencies": {
     "async-mqtt": "^2.5.0",
     "fastify-plugin": "^1.6.1"
@@ -16,7 +16,8 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "test": "tap test.ts"
+    "test": "tap test.ts",
+    "tsc": "tsc index.ts"
   },
   "repository": {
     "type": "git",
