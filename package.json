@@ -1,7 +1,7 @@
 {
   "name": "@smart-home-the-verse/fastify-async-mqtt",
   "version": "0.0.1",
-  "description": "",
+  "description": "Fastify MQTT plugin based on async-mqtt",
   "main": "index.ts",
   "dependencies": {
     "async-mqtt": "^2.5.0",
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://gitlab.com/smart-home-the-verse/fastify-async-mqtt/issues"
   },
-  "homepage": "https://gitlab.com/smart-home-the-verse/fastify-async-mqtt#readme"
+  "homepage": "https://gitlab.com/smart-home-the-verse/fastify-async-mqtt#readme",
+  "publishConfig": {
+    "@smart-home-the-verse:registry": "https://gitlab.com/api/v4/projects/17863892/packages/npm/"
+  }
 }
